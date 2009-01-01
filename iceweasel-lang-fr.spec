@@ -1,10 +1,10 @@
 %define		_lang		fr
 Summary:	French resources for Iceweasel
-Summary(pl.UTF-8):	Francuskie pliki językowe dla Iceweasel
+Summary(pl.UTF-8):	Francuskie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
 Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
 # Source0-md5:	c328ecdca8eeb71a6b730f36284ef68f
@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 French resources for Iceweasel.
 
 %description -l pl.UTF-8
-Francuskie pliki językowe dla Iceweasel.
+Francuskie pliki językowe dla Iceweasela.
 
 %prep
 
