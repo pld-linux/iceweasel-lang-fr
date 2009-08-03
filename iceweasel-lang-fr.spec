@@ -2,12 +2,12 @@
 Summary:	French resources for Iceweasel
 Summary(pl.UTF-8):	Francuskie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
-Version:	3.5.1
+Version:	3.5.2
 Release:	2
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	1c0979bbefadc2cea5fb5868228f870d
+# Source0-md5:	d85557e34ed9ab27944d009292a93fd2
 URL:		http://www.mozilla.org/
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
